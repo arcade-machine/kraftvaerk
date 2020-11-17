@@ -1,0 +1,9 @@
+//basic
+@import '../node_modules/normalize.css/normalize';
+@import "components/abstract/scss/vars";
+@import "components/abstract/scss/base";
+@import "components/abstract/scss/fonts";
+
+//components
+@import "components/header/header";
+@import "components/footer/footer";
