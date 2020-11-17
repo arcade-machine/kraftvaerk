@@ -1,2 +1,89 @@
 .header {
+  &__top {
+    display: flex;
+    align-items: center;
+  }
+
+  &__container {
+    position: relative;
+
+    &--navigation {
+      background-color: $navigation-background;
+    }
+  }
+
+  &__logo-box {
+    width: 200px;
+    margin-right: 105px;
+    flex-shrink: 0;
+  }
+
+  &__title {
+    margin: 0;
+    padding: $step-regular;
+    font-size: $f-subtitle;
+    color: $title-color;
+    text-transform: uppercase;
+  }
+
+  &__navigation {
+    display: flex;
+    padding: $step-regular 0;
+
+    &--open {
+      .header__navigation-list {
+        height: 100%;
+      }
+    }
+  }
+
+  &__burger {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-size: contain;
+      background-image: url("#{$icons}burger.svg");
+    }
+  }
+
+  &__burger-description {
+    display: none;
+  }
+
+  &__navigation-list {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: $dark-brown;
+    transition: 0.2s ease height;
+  }
+
+  &__navigation-item {
+    border-bottom: 1px solid #867d67;
+  }
+
+  &__navigation-link {
+    display: block;
+    padding: $step-regular;
+    font-size: $f-big;
+    color: $paragraph-color;
+    text-decoration: none;
+  }
 }

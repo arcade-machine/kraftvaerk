@@ -1,16 +1,11 @@
 //colors
-$light-black: #101010;
-$red: #e51b19;
-$blood: #bf0432;
-$grey: #999999;
-$white-grey: #f1f1f1;
-$strong-grey: #bfc1c4;
-$whisper: #eeeeee;
-$light-grey: #a0a0a0;
 $white: #ffffff;
+$brown: #867d67;
+$dark-brown: #5e5748;
 
 //path
-$img: "../img/";
+$img: "./media/img/";
+$icons: "#{$img}icons/";
 
 //media
 $media-mobile: 700px;
@@ -18,22 +13,16 @@ $media-mobile: 700px;
 //colors
 
 //text
-$c-primary-text: $light-black;
-$c-grey-text: $grey;
-$c-red-text: $red;
-$c-white-text: $white;
-$c-info-text: $light-grey;
+$paragraph-color: $white;
+$title-color: $brown;
+
 //bg
-$c-footer-bg: $strong-grey;
-$c-red-bg: $red;
-$c-secondary-red: $blood;
-$c-white-bg: $white;
-$c-feature-bg: $whisper;
-$c-black-bg: $light-black;
-$c-grey-background: $white-grey;
+$navigation-background: $brown;
+$mobile-navigation-background: $dark-brown;
+
 //borders
-$c-white-border: $white;
-$c-border: $white-grey;
+
+
 
 //weights
 $f-light: 300;
@@ -51,7 +40,6 @@ $f-subtitle: 20px;
 $f-title: 30px;
 
 //gutters
-$step: 10px;
-$step-small: 5px;
-$step-regular: 10px;
-$step-big: 15px;
+$step: 7px;
+$step-regular: 14px;
+$step-big: 21px;

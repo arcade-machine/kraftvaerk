@@ -1,4 +1,21 @@
+- var menuLinks = ['Tekijät', 'Tietoa palvelusta','Pyydä tarjous'];
+
 mixin header()
     header.header
-        | header works!
-        img(src=img + 'pepega.png')
+        .header__container.container
+            .header__top
+                .header__logo-box
+                    img.header__logo(src=img + 'logo.svg')
+                h1.header__title
+                    | Tekijäpankki
+
+        .header__container.header__container--navigation.container
+            nav.header__navigation
+                button.header__burger
+                    span.header__burger-description
+                        | Open mobile menu
+
+                ul.header__navigation-list
+                    each link in menuLinks
+                        li.header__navigation-item
+                            a.header__navigation-link(href="#")=link

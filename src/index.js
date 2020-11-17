@@ -1,1 +1,2 @@
-console.log('js is working!');
+import './scripts/menu';
+

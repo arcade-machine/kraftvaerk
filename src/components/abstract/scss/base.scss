@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -5,7 +9,6 @@ html {
 body {
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 400;
-  letter-spacing: 0.56px;
   scroll-behavior: smooth;
 }
 
@@ -29,4 +32,11 @@ img {
 
 .no-overflow {
   overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 $step-regular;
 }
