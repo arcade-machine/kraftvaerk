@@ -2,9 +2,21 @@
   padding: $step-big 0;
   border-top: 1px dotted #cccccc;
 
+  &__container {
+    @media (min-width: $media-tablet) {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+
   &__content {
     &:not(:last-child) {
       margin-bottom: $step-big;
+    }
+
+    @media (min-width: $media-tablet) {
+      width: 40%;
     }
   }
 
@@ -44,6 +56,10 @@
     align-items: center;
     justify-content: center;
     padding: $step-big 0;
+
+    @media (min-width: $media-tablet) {
+      width: 100%;
+    }
   }
 
   &__copyright-text {

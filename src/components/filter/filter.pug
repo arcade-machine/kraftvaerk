@@ -6,8 +6,8 @@ mixin filter()
             h2.filter__subtitle
                 | Valitse maalaustyö
             ul.filter__list
-                each option, index in filterOptions
-                    li.filter__item(class=index === 0 ? "filter__item--active": "")
+                each option in filterOptions
+                    li.filter__item
                         label.filter__label
                             input.filter__checkbox.visually-hidden(type='checkbox' name='sorting')
                             p.filter__text=option

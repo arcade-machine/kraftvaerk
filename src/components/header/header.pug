@@ -1,4 +1,4 @@
-- var menuLinks = ['Tekijät', 'Tietoa palvelusta','Pyydä tarjous'];
+- var menuLinksMobile = ['Tekijät', 'Tietoa palvelusta','Pyydä tarjous'];
 
 mixin header()
     header.header
@@ -16,6 +16,6 @@ mixin header()
                         | Open mobile menu
 
                 ul.header__navigation-list
-                    each link in menuLinks
+                    each link in menuLinksMobile
                         li.header__navigation-item
                             a.header__navigation-link(href="#")=link

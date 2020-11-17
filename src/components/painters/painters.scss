@@ -10,6 +10,29 @@
       .painters__actions-box {
         border: none;
       }
+
+      @media (min-width: $media-tablet) {
+        border: none;
+      }
+    }
+
+    @media (min-width: $media-tablet) {
+      display: flex;
+      padding: $step-regular 0;
+      border-bottom: 1px dotted #cccccc;
+    }
+  }
+
+  &__wrapper {
+    @media (min-width: $media-tablet) {
+      display: flex;
+      width: 70%;
+    }
+  }
+
+  &__image-box {
+    @media (min-width: $media-tablet) {
+      flex-shrink: 0;
     }
   }
 
@@ -21,6 +44,11 @@
 
   &__info {
     padding: $step 0;
+
+    @media (min-width: $media-tablet) {
+      padding: $step-regular;
+      border-right: 1px dotted #cccccc;
+    }
   }
 
   &__name {
@@ -52,13 +80,14 @@
 
   &__about-section {
     display: flex;
-    margin-bottom: $step;
+    flex-wrap: wrap;
   }
 
   &__link {
     display: flex;
     align-items: center;
     margin-right: $step-regular;
+    margin-bottom: $step;
     font-size: $f-casual;
     font-weight: 400;
     color: #ab8b3f;
@@ -126,6 +155,13 @@
     padding-top: $step-big;
     border-top: 1px dotted #cccccc;
     border-bottom: 1px dotted #cccccc;
+
+    @media (min-width: $media-tablet) {
+      flex-shrink: 0;
+      width: 30%;
+      padding-left: $step-regular;
+      border: none;
+    }
   }
 
   &__button {
