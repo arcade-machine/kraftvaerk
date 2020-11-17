@@ -2,24 +2,32 @@
 
 mixin painters()
     section.painters
-        ul.painters__list
-            each painter in paintersList
-                li.painters__item
-                    .painters__wrapper
-                        .painters__image-box
-                            img.painters__image(src=img + painter.img)
-                        .painters__content-box
-                            h3.painters__title=painter.name
-                            p.painters__location=painter.city
+        .painters__container.container
+            ul.painters__list
+                each painter in paintersList
+                    li.painters__item
+                        .painters__wrapper
+                            .painters__image-box
+                                img.painters__image(src=img + painter.img alt=painter.name width='144' height='144')
+                            article.painters__info
+                                h3.painters__name=painter.name
+                                p.painters__location=painter.city
 
-                            .painters__about-section
-                                a.painters__phone(href='tel:' + painter.phone)=painter.phone
-                                a.painters__email(her='mailto:' + painter.email)=painter.email
+                                .painters__about-section
+                                    a.painters__link.painters__link--phone(href='tel:' + painter.phone)=painter.phone
+                                    a.painters__link.painters__link--email(href='mailto:' + painter.email)=painter.email
 
-                            p.painters__description=painter.description
+                                p.painters__description=painter.description
 
-                            ul.painters__certificate-list
-                                each certificate in painter.certificates
-                                    li.painters__certificate-item=certificate
+                                ul.painters__certificate-list
+                                    each certificate in painter.certificates
+                                        li.painters__certificate-item=certificate
+                                        li.painters__certificate-item=certificate
 
-                    .painters__action-box
+                        .painters__actions-box
+                            button.painters__button
+                                | Pyydä tarjous!
+                            ul.painters__icons-list
+                                li.painters__icons-item
+                                    p.painters__icons-text
+                                        | 11
