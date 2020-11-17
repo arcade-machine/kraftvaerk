@@ -1,3 +1,24 @@
 mixin footer()
     footer.footer
-        | footer works!
+        .footer__container.container
+            .footer__content
+                h2.footer__title
+                    | Löydä lähin luotettava tekijä!
+                p.footer__text
+                    | Tekijäpankista löydät osaavat ja luotettavat tekijät maalaustyöllesi.
+                a.footer__link(href="#")
+                    | Lue lisää
+
+            .footer__content
+                h2.footer__title
+                    | Yleistä
+                a.footer__link(href="#")
+                    | Tietoa palvelusta
+                a.footer__link(href="#")
+                    | Ota yhteyttä
+
+            .footer__copyright
+                p.footer__copyright-text
+                    | © 2019 Tikkurila Oyj -
+                a.footer__copyright-link(href='#www.tikkurila.fi')
+                    | www.tikkurila.fi

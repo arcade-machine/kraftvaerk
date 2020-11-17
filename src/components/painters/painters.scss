@@ -5,6 +5,14 @@
     list-style: none;
   }
 
+  &__item {
+    &:last-child {
+      .painters__actions-box {
+        border: none;
+      }
+    }
+  }
+
   &__image {
     display: block;
     width: 144px;
@@ -115,7 +123,7 @@
   }
 
   &__actions-box {
-    padding: $step-big 0;
+    padding-top: $step-big;
     border-top: 1px dotted #cccccc;
     border-bottom: 1px dotted #cccccc;
   }
