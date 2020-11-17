@@ -1,0 +1,112 @@
+.sorting {
+  padding: $step 0;
+  background: linear-gradient(0deg,#e2e2e1,#fffffe);
+
+  &__search-box, &__sorting-box {
+    display: flex;
+    align-items: center;
+    padding: $step-regular 0;
+  }
+
+  &__sorting-box {
+    flex-wrap: wrap;
+  }
+
+  &__search-label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  &__search-subtitle, &__sorting-subtitle {
+    margin: 0;
+    margin-right: $step-big;
+    font-size: $f-casual;
+    color: $label-color;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__sorting-subtitle {
+    margin-right: 0;
+    margin-bottom: $step;
+  }
+
+  &__search-input-box {
+    position: relative;
+    flex-grow: 1;
+
+    &::before {
+      content: "";
+      position: absolute;
+      right: $step-regular;
+      top: 50%;
+      width: 25px;
+      height: 25px;
+      background-size: contain;
+      background-image: url("#{$icons}search.svg");
+      transform: translateY(-50%);
+    }
+  }
+
+  &__search-input {
+    width: 100%;
+    padding: $step-regular;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  &__sorting-list {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  &__sorting-item {
+    &:not(:last-child) {
+      margin-right: $step-regular;
+    }
+  }
+
+  &__sorting-label {
+    display: block;
+    cursor: pointer;
+  }
+
+  &__sorting-text {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding-bottom: $step;
+    font-size: $f-casual;
+    font-weight: 400;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      opacity: 0;
+      background-color: $sorting-border;
+      transition: 0.3s ease opacity;
+    }
+
+    &:hover::before {
+      opacity: 1;
+    }
+  }
+
+  &__radio-input {
+    &:checked ~{
+      .sorting__sorting-text {
+        &::before {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

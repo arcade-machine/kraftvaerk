@@ -2,6 +2,8 @@
 $white: #ffffff;
 $brown: #867d67;
 $dark-brown: #5e5748;
+$gray: #4f4f4f;
+$dark-blue: #3a3f6d;
 
 //path
 $img: "./media/img/";
@@ -15,14 +17,14 @@ $media-mobile: 700px;
 //text
 $paragraph-color: $white;
 $title-color: $brown;
+$label-color: $gray;
 
 //bg
 $navigation-background: $brown;
 $mobile-navigation-background: $dark-brown;
 
 //borders
-
-
+$sorting-border: $dark-blue;
 
 //weights
 $f-light: 300;
