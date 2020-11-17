@@ -1,0 +1,83 @@
+.filter {
+  padding: $step-regular 0;
+  background-color: $filter-background;
+
+  &__subtitle {
+    margin: 0;
+    margin-right: $step-big;
+    font-size: $f-casual;
+    color: $label-color;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: $step-regular 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  &__item {
+    margin-bottom: $step;
+
+    &:not(:last-child) {
+      margin-right: $step-regular;
+    }
+
+    &:hover {
+      .filter__text {
+        background-color: #f5f5f5;
+      }
+    }
+
+    &--active {
+      &:hover {
+        .filter__text {
+          background-color: #6ecd5b;
+        }
+      }
+
+      .filter__text {
+        color: #fff;
+        border: 1px solid #6ecd5b;
+        background-color: #6ecd5b;
+      }
+    }
+  }
+
+  &__label {
+    display: block;
+    cursor: pointer;
+  }
+
+  &__text {
+    display: flex;
+    align-items: center;
+    min-height: 25px;
+    padding: 0 $step-regular;
+    border: 1px solid #867d67;
+    border-radius: 30px;
+    font-size: $f-casual;
+    font-weight: 400;
+    color: #282828;
+  }
+
+  &__text {
+    margin: 0;
+  }
+
+  &__description-box {
+    padding-top: $step-regular;
+    border-top: 1px solid #e2e2e1;
+  }
+
+  &__description {
+    text-align: center;
+    font-size: $f-casual;
+    font-weight: 400;
+    color: #4f4f4f;
+  }
+}

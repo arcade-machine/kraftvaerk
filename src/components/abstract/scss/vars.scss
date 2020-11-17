@@ -1,5 +1,6 @@
 //colors
 $white: #ffffff;
+$light-white: #f7f7f7;
 $brown: #867d67;
 $dark-brown: #5e5748;
 $gray: #4f4f4f;
@@ -18,10 +19,12 @@ $media-mobile: 700px;
 $paragraph-color: $white;
 $title-color: $brown;
 $label-color: $gray;
+$sorting-link: $dark-blue;
 
 //bg
 $navigation-background: $brown;
 $mobile-navigation-background: $dark-brown;
+$filter-background: $light-white;
 
 //borders
 $sorting-border: $dark-blue;

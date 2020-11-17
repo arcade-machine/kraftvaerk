@@ -20,6 +20,10 @@
     flex-shrink: 0;
   }
 
+  &__logo {
+    display: block;
+  }
+
   &__title {
     margin: 0;
     padding: $step-regular;
