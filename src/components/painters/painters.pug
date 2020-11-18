@@ -1,33 +1,6 @@
-- var paintersList = [{id: '1', img: 'pepega.png', name: 'Tmi Antti Puumanen', city: 'HELSINKI', phone: '+358442546122', email: 'antti.puumanen@gmail.com', description: 'Vuodesta 2010 toiminimellä maalausalan pien urakoitsijana ja ali-urakoitsijana töitä tehnyt yhdenmiehen yritys. Koulutukseltani olen Maalari-artesaani.pt sekä Restaurointi-Kisälli.at. Erikois-osaamisena Marmorointi/kivijäljennökset.', certificates: ['Efektimaalaus']}, {id: '1', img: 'asd', name: 'Tmi Antti Puumanen', city: 'HELSINKI', phone: '+358442546122', email: 'antti.puumanen@gmail.com', description: 'Vuodesta 2010 toiminimellä maalausalan pien urakoitsijana ja ali-urakoitsijana töitä tehnyt yhdenmiehen yritys. Koulutukseltani olen Maalari-artesaani.pt sekä Restaurointi-Kisälli.at. Erikois-osaamisena Marmorointi/kivijäljennökset.', certificates: ['Efektimaalaus']}, {id: '1', img: 'asd', name: 'Tmi Antti Puumanen', city: 'HELSINKI', phone: '+358442546122', email: 'antti.puumanen@gmail.com', description: 'Vuodesta 2010 toiminimellä maalausalan pien urakoitsijana ja ali-urakoitsijana töitä tehnyt yhdenmiehen yritys. Koulutukseltani olen Maalari-artesaani.pt sekä Restaurointi-Kisälli.at. Erikois-osaamisena Marmorointi/kivijäljennökset.', certificates: ['Efektimaalaus']}, {id: '1', img: 'asd', name: 'Tmi Antti Puumanen', city: 'HELSINKI', phone: '+358442546122', email: 'antti.puumanen@gmail.com', description: 'Vuodesta 2010 toiminimellä maalausalan pien urakoitsijana ja ali-urakoitsijana töitä tehnyt yhdenmiehen yritys. Koulutukseltani olen Maalari-artesaani.pt sekä Restaurointi-Kisälli.at. Erikois-osaamisena Marmorointi/kivijäljennökset.', certificates: ['Efektimaalaus']}];
-
 mixin painters()
     section.painters
         .painters__container.container
+            +spinner
+
             ul.painters__list
-                each painter in paintersList
-                    li.painters__item
-                        .painters__wrapper
-                            .painters__image-box
-                                img.painters__image(src=img + painter.img alt=painter.name width='144' height='144')
-                            article.painters__info
-                                h3.painters__name=painter.name
-                                p.painters__location=painter.city
-
-                                .painters__about-section
-                                    a.painters__link.painters__link--phone(href='tel:' + painter.phone)=painter.phone
-                                    a.painters__link.painters__link--email(href='mailto:' + painter.email)=painter.email
-
-                                p.painters__description=painter.description
-
-                                ul.painters__certificate-list
-                                    each certificate in painter.certificates
-                                        li.painters__certificate-item=certificate
-                                        li.painters__certificate-item=certificate
-
-                        .painters__actions-box
-                            button.painters__button
-                                | Pyydä tarjous!
-                            ul.painters__icons-list
-                                li.painters__icons-item
-                                    p.painters__icons-text
-                                        | 11

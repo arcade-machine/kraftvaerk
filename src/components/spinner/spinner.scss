@@ -1,0 +1,13 @@
+.spinner {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  border: 3px solid #ddd;
+  border-radius: 50%;
+  border-left-color: #666;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: spinner;
+  animation-timing-function: linear;
+}

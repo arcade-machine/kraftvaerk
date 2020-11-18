@@ -1,4 +1,9 @@
 .painters {
+  &__container {
+    padding-top: $step-regular;
+    padding-bottom: $step-regular;
+  }
+
   &__list {
     margin: 0;
     padding: 0;
@@ -6,6 +11,8 @@
   }
 
   &__item {
+    padding: $step-regular 0;
+
     &:last-child {
       .painters__actions-box {
         border: none;
@@ -31,6 +38,9 @@
   }
 
   &__image-box {
+    width: 144px;
+    height: 144px;
+
     @media (min-width: $media-tablet) {
       flex-shrink: 0;
     }
@@ -38,8 +48,8 @@
 
   &__image {
     display: block;
-    width: 144px;
-    height: 144px;
+    max-width: 144px;
+    max-height: 144px;
   }
 
   &__info {

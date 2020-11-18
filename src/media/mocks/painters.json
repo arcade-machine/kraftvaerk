@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "img": "pepega.png",
+    "name": "Pepega",
+    "city": "Twitch.tv",
+    "phone": "+358442546122",
+    "email": "pepega@gmail.com",
+    "description": "Pepega (pronounced \"peh-peyguh\") is a Twitch Emote featuring a distorted image of Pepe the Frog which is used to ironically express that something is stupid",
+    "certificates": [
+      "Efektimaalaus"
+    ]
+  },
+  {
+    "id": "1",
+    "img": "bradd_pitt.jpg",
+    "name": "Bradd Pitt",
+    "city": "Los Angeles",
+    "phone": "+3102756135",
+    "email": "antti.puumanen@gmail.com",
+    "description": "Vuodesta 2010 toiminimellä maalausalan pien urakoitsijana ja ali-urakoitsijana töitä tehnyt yhdenmiehen yritys. Koulutukseltani olen Maalari-artesaani.pt sekä Restaurointi-Kisälli.at. Erikois-osaamisena Marmorointi/kivijäljennökset.",
+    "certificates": [
+      "Efektimaalaus"
+    ]
+  },
+  {
+    "id": "1",
+    "img": "bruce_lee.jpg",
+    "name": "Tmi Antti Puumanen",
+    "city": "HELSINKI",
+    "phone": "+358442546122",
+    "email": "antti.puumanen@gmail.com",
+    "description": "Vuodesta 2010 toiminimellä maalausalan pien urakoitsijana ja ali-urakoitsijana töitä tehnyt yhdenmiehen yritys. Koulutukseltani olen Maalari-artesaani.pt sekä Restaurointi-Kisälli.at. Erikois-osaamisena Marmorointi/kivijäljennökset.",
+    "certificates": [
+      "Efektimaalaus"
+    ]
+  },
+  {
+    "id": "1",
+    "img": "moses.jpg",
+    "name": "Tmi Antti Puumanen",
+    "city": "HELSINKI",
+    "phone": "+358442546122",
+    "email": "antti.puumanen@gmail.com",
+    "description": "Vuodesta 2010 toiminimellä maalausalan pien urakoitsijana ja ali-urakoitsijana töitä tehnyt yhdenmiehen yritys. Koulutukseltani olen Maalari-artesaani.pt sekä Restaurointi-Kisälli.at. Erikois-osaamisena Marmorointi/kivijäljennökset.",
+    "certificates": [
+      "Efektimaalaus"
+    ]
+  },
+  {
+    "id": "1",
+    "img": "robin_williams.jpeg",
+    "name": "Tmi Antti Puumanen",
+    "city": "HELSINKI",
+    "phone": "+358442546122",
+    "email": "antti.puumanen@gmail.com",
+    "description": "Vuodesta 2010 toiminimellä maalausalan pien urakoitsijana ja ali-urakoitsijana töitä tehnyt yhdenmiehen yritys. Koulutukseltani olen Maalari-artesaani.pt sekä Restaurointi-Kisälli.at. Erikois-osaamisena Marmorointi/kivijäljennökset.",
+    "certificates": [
+      "Efektimaalaus"
+    ]
+  },
+  {
+    "id": "1",
+    "img": "william_shakespeare.jpeg",
+    "name": "Tmi Antti Puumanen",
+    "city": "HELSINKI",
+    "phone": "+358442546122",
+    "email": "antti.puumanen@gmail.com",
+    "description": "Vuodesta 2010 toiminimellä maalausalan pien urakoitsijana ja ali-urakoitsijana töitä tehnyt yhdenmiehen yritys. Koulutukseltani olen Maalari-artesaani.pt sekä Restaurointi-Kisälli.at. Erikois-osaamisena Marmorointi/kivijäljennökset.",
+    "certificates": [
+      "Efektimaalaus"
+    ]
+  },
+  {
+    "id": "1",
+    "img": "king_arthur.jpg",
+    "name": "Tmi Antti Puumanen",
+    "city": "HELSINKI",
+    "phone": "+358442546122",
+    "email": "antti.puumanen@gmail.com",
+    "description": "Vuodesta 2010 toiminimellä maalausalan pien urakoitsijana ja ali-urakoitsijana töitä tehnyt yhdenmiehen yritys. Koulutukseltani olen Maalari-artesaani.pt sekä Restaurointi-Kisälli.at. Erikois-osaamisena Marmorointi/kivijäljennökset.",
+    "certificates": [
+      "Efektimaalaus"
+    ]
+  }
+]

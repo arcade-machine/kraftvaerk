@@ -19,6 +19,7 @@ const paths = {
 const style = require(`${taskFolder}style`)(__dirname, paths, browserSync);
 const clean = require(`${taskFolder}clean`)(__dirname, paths);
 const fonts = require(`${taskFolder}fonts`)(__dirname, paths);
+const mocks = require(`${taskFolder}mocks`)(__dirname, paths);
 const pugToHTML = require(`${taskFolder}pugToHTML`)(__dirname, paths, browserSync, projectName);
 const scripts = require(`${taskFolder}scripts`)(__dirname, paths, webpackConfig, browserSync);
 const webp = require(`${taskFolder}webp`)(__dirname, paths);
@@ -47,7 +48,8 @@ exports.default =
         ),
         watch,
         scripts,
-        fonts
+        fonts,
+        mocks
     );
 
 exports.build = gulp.series(
@@ -59,6 +61,7 @@ exports.build = gulp.series(
         webp,
         img,
         svg,
-        fonts
+        fonts,
+        mocks
     )
 );
