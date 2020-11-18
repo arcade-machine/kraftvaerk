@@ -1,4 +1,4 @@
-import PainterComponent from "../components/paintersComponent";
+import PainterComponent from "../components/painterComponent";
 import Menu from '../components/menu';
 
 const sortingForm = document.querySelector('.filter__form');

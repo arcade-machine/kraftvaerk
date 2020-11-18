@@ -145,6 +145,7 @@
     display: flex;
     align-items: center;
     text-transform: capitalize;
+    font-size: $f-casual;
 
     &:not(:first-child) {
       &::before {
@@ -183,6 +184,7 @@
     font-size: $f-casual;
     font-weight: 400;
     color: #548235;
+    cursor: pointer;
     border: 1px solid #548235;
   }
 

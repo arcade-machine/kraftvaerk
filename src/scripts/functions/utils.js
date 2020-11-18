@@ -5,3 +5,12 @@ export const createTemplate = (template, element = 'div', className = '') => {
 
     return newElement;
 };
+
+export const shuffleAndReturnArray = (array, expectedLength) => {
+    const shuffled = array.slice().sort(
+        () => {
+            return 0.5 - Math.random();
+        });
+
+    return shuffled.slice(0, expectedLength);
+}
