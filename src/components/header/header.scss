@@ -122,7 +122,7 @@
   }
 
   &__navigation-item {
-    border-bottom: 1px solid #867d67;
+    border-bottom: 1px solid $filter-text-border;
 
     &--home {
       display: none;
@@ -155,7 +155,7 @@
       @media (min-width: $media-desktop) {
         min-width: 140px;
         margin-left: auto;
-        border: 1px solid #ffffff;
+        border: 1px solid $white-border;
         opacity: .6;
         text-align: center;
       }

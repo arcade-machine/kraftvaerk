@@ -7,7 +7,7 @@
     margin-right: $step-big;
     font-size: $f-casual;
     color: $label-color;
-    font-weight: 700;
+    font-weight: $f-bold;
     text-transform: uppercase;
   }
 
@@ -29,7 +29,7 @@
 
     &:hover {
       .filter__text {
-        background-color: #f5f5f5;
+        background-color: $filter-text-background;
       }
     }
   }
@@ -37,9 +37,9 @@
   &__checkbox {
     &:checked ~{
       .filter__text {
-        color: #fff;
-        border: 1px solid #6ecd5b;
-        background-color: #6ecd5b;
+        color: $paragraph-color;
+        border: 1px solid $checkbox-border;
+        background-color: $checkbox-background;
       }
     }
   }
@@ -54,11 +54,11 @@
     align-items: center;
     min-height: 25px;
     padding: 0 $step-regular;
-    border: 1px solid #867d67;
+    border: 1px solid $filter-text-border;
     border-radius: 30px;
     font-size: $f-casual;
-    font-weight: 400;
-    color: #282828;
+    font-weight: $f-regular;
+    color: $filter-text;
     text-transform: capitalize;
   }
 
@@ -68,13 +68,13 @@
 
   &__description-box {
     padding-top: $step-regular;
-    border-top: 1px solid #e2e2e1;
+    border-top: 1px solid $description-border;
   }
 
   &__description {
     text-align: center;
     font-size: $f-casual;
     font-weight: 400;
-    color: #4f4f4f;
+    color: $description-color;
   }
 }

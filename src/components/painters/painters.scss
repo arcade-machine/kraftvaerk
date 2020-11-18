@@ -65,7 +65,7 @@
     margin: 0;
     margin-bottom: $step;
     font-size: $f-big;
-    font-weight: 600;
+    font-weight: $f-bold;
     color: $title-color;
   }
 
@@ -75,7 +75,7 @@
     margin: 0;
     margin-bottom: $step;
     font-size: $f-casual;
-    font-weight: 400;
+    font-weight: $f-regular;
 
     &::before {
       content: '';
@@ -99,8 +99,8 @@
     margin-right: $step-regular;
     margin-bottom: $step;
     font-size: $f-casual;
-    font-weight: 400;
-    color: #ab8b3f;
+    font-weight: $f-regular;
+    color: $footer-link;
     text-decoration: none;
 
     &::before {
@@ -131,7 +131,7 @@
     margin-bottom: $step;
     color: #4f4f4f;
     font-size: $f-casual;
-    font-weight: 300;
+    font-weight: $f-regular;
   }
 
   &__certificate-list {
@@ -207,8 +207,8 @@
     flex-direction: column;
     margin: 0;
     font-size: $f-casual;
-    font-weight: 700;
-    color: #4f4f4f;
+    font-weight: $f-bold;
+    color: $label-color;
 
     &::before {
       content: "";

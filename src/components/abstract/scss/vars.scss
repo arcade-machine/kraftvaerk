@@ -1,10 +1,16 @@
 //colors
 $white: #ffffff;
+$light-gray: #f5f5f5;
 $light-white: #f7f7f7;
+$dark-white: #e2e2e1;
 $brown: #867d67;
 $dark-brown: #5e5748;
 $gray: #4f4f4f;
 $dark-blue: #3a3f6d;
+$green: #6ecd5b;
+$dark-green: #548235;
+$orange: #ab8b3f;
+$black: #282828;
 
 //path
 $img: "./media/img/";
@@ -20,21 +26,30 @@ $media-desktop: 1024px;
 $paragraph-color: $white;
 $title-color: $brown;
 $label-color: $gray;
+$description-color: $gray;
 $sorting-link: $dark-blue;
+$footer-link: $orange;
+$filter-text: $black;
 
 //bg
 $navigation-background: $brown;
 $mobile-navigation-background: $dark-brown;
 $filter-background: $light-white;
+$filter-text-background: $light-gray;
+$checkbox-background: $green;
 
 //borders
 $sorting-border: $dark-blue;
+$checkbox-border: $green;
+$filter-text-border: $brown;
+$description-border: $dark-white;
+$white-border: $white;
 
 //weights
 $f-light: 300;
 $f-regular: 400;
 $f-medium: 500;
-$f-bold: 600;
+$f-bold: 700;
 
 //font-sizes
 $f-tooltip: 10px;

@@ -25,30 +25,30 @@
     margin: 0;
     margin-bottom: $step-regular;
     font-size: $f-big;
-    font-weight: 200;
-    color: #4f4f4f;
+    font-weight: $f-regular;
+    color: $title-color;
   }
 
   &__text {
     margin: 0;
     margin-bottom: $step-big;
     font-size: $f-casual;
-    font-weight: 200;
-    color: #4f4f4f;
+    font-weight: $f-regular;
+    color: $title-color;
   }
 
   &__link {
     display: block;
     padding: $step 0;
     font-size: $f-casual;
-    font-weight: 200;
-    color: #ab8b3f;
+    font-weight: $f-regular;
+    color: $footer-link;
     text-decoration: none;
 
     &::after {
       content: "»";
       margin-left: $step;
-      color: #282828;
+      color: $filter-text;
     }
   }
 
@@ -66,15 +66,15 @@
   &__copyright-text {
     margin: 0;
     font-size: $f-casual;
-    font-weight: 200;
-    color: #282828;
+    font-weight: $f-regular;
+    color: $filter-text;
   }
 
   &__copyright-link {
     margin-left: 4px;
     font-size: $f-casual;
-    font-weight: 200;
-    color: #ab8b3f;
+    font-weight: $f-regular;
+    color: $orange;
     text-decoration: none;
   }
 }

@@ -37,7 +37,7 @@
     margin-right: $step-big;
     font-size: $f-casual;
     color: $label-color;
-    font-weight: 700;
+    font-weight: $f-bold;
     text-transform: uppercase;
 
     @media (min-width: $media-tablet) {
