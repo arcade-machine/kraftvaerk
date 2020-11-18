@@ -1,16 +1,17 @@
-- var filterOptions = ['Terassit', 'Katot', 'Puujulkisivut', 'Tasoitustyöt', 'Efektimaalaus'];
+- var filterOptions = ['terassit', 'katot', 'puujulkisivut', 'tasoitustyöt', 'efektimaalaus'];
 
 mixin filter()
     section.filter
         .filter__container.container
             h2.filter__subtitle
                 | Valitse maalaustyö
-            ul.filter__list
-                each option in filterOptions
-                    li.filter__item
-                        label.filter__label
-                            input.filter__checkbox.visually-hidden(type='checkbox' name='sorting')
-                            p.filter__text=option
+            form.filter__form
+                ul.filter__list
+                    each option in filterOptions
+                        li.filter__item
+                            label.filter__label
+                                input.filter__checkbox.visually-hidden(type='checkbox' name='sorting' value=option)
+                                p.filter__text=option
 
         .filter__description-box
             .filter__container.container

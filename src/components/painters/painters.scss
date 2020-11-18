@@ -144,6 +144,7 @@
   &__certificate-item {
     display: flex;
     align-items: center;
+    text-transform: capitalize;
 
     &:not(:first-child) {
       &::before {

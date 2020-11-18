@@ -1,7 +1,7 @@
 import AbstractComponent from "./abstract-component";
 
 const painterTemplate = (painter) => {
-    return `<li class="painters__item">
+    return `
         <div class="painters__wrapper">
             <div class="painters__image-box">
                 <img class="painters__image" src=./assets/media/img/painters/${painter.img} alt="${painter.name}">
@@ -29,7 +29,7 @@ const painterTemplate = (painter) => {
                 </li>
             </ul>
         </div>
-    </li>`
+    `
 }
 
 export default class PainterComponent extends AbstractComponent {
