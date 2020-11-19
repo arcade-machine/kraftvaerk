@@ -1,5 +1,5 @@
 import PainterComponent from "../components/painterComponent";
-import Menu from '../components/menu';
+import MenuController from './menuController';
 
 const sortingForm = document.querySelector('.filter__form');
 const formSortingCheckboxes = sortingForm.querySelectorAll('input[name="sorting"]');
@@ -20,7 +20,7 @@ export default class PageController {
         this._renderPainters(this.painterList);
 
         this._setupSorting();
-        new Menu().setupMobileMenu();
+        new MenuController().setupMobileMenu();
     }
 
     _setupSorting() {
